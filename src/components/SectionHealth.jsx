@@ -7,9 +7,11 @@ export default function SectionHealth() {
     <section id="health" className="relative bg-moss text-parchment py-24 sm:py-32 overflow-hidden">
       <div className="absolute inset-0 opacity-[0.15]">
         <img
-          src="https://images.unsplash.com/photo-1584982751601-97dcc096659c?auto=format&fit=crop&w=2000&q=80"
+          src="https://images.unsplash.com/photo-1584982751601-97dcc096659c?auto=format&fit=crop&w=1400&q=40"
           alt="Calm clinical therapy room setting"
           className="w-full h-full object-cover"
+          loading="lazy"
+          decoding="async"
         />
       </div>
       <div className="absolute inset-0 bg-gradient-to-b from-moss via-moss/95 to-moss" />

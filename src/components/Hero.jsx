@@ -5,9 +5,12 @@ export default function Hero() {
     <section id="top" className="relative h-screen min-h-[640px] w-full overflow-hidden flex items-end">
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1469521669194-babb45599def?auto=format&fit=crop&w=2000&q=80"
+          src="https://images.unsplash.com/photo-1469521669194-babb45599def?auto=format&fit=crop&w=1920&q=70"
           alt="Dramatic New Zealand alpine landscape at Milford Sound"
           className="w-full h-full object-cover"
+          loading="eager"
+          fetchpriority="high"
+          decoding="async"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/50 to-ink/20" />
         <div className="absolute inset-0 bg-ink/20" />

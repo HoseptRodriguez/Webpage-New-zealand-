@@ -52,9 +52,11 @@ export default function SectionEducation() {
             <Reveal delay={0.15}>
               <div className="overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1400&q=80"
+                  src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1000&q=65"
                   alt="Empty classroom highlighting gaps in school attendance"
                   className="w-full h-[420px] object-cover hover:scale-105 transition-transform duration-700 ease-out"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <p className="mt-3 text-xs uppercase tracking-widest text-ink/50">

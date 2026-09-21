@@ -11,9 +11,11 @@ export default function SectionSocialMedia() {
             <Reveal>
               <div className="overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&w=1400&q=80"
+                  src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&w=1000&q=65"
                   alt="Abstract composition of a smartphone showing social media apps"
                   className="w-full h-[420px] object-cover hover:scale-105 transition-transform duration-700 ease-out"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <p className="mt-3 text-xs uppercase tracking-widest text-ink/50">

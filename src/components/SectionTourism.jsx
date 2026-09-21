@@ -13,9 +13,11 @@ export default function SectionTourism() {
         className="absolute inset-0"
       >
         <img
-          src="https://images.unsplash.com/photo-1493514789931-586cb221d7a7?auto=format&fit=crop&w=2000&q=80"
+          src="https://images.unsplash.com/photo-1493514789931-586cb221d7a7?auto=format&fit=crop&w=1600&q=65"
           alt="Aoraki Mount Cook, New Zealand's highest peak, at golden hour"
           className="w-full h-full object-cover"
+          loading="lazy"
+          decoding="async"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-ink/80 via-ink/20 to-ink/40" />
       </motion.div>

@@ -6,6 +6,7 @@ import SectionSocialMedia from './components/SectionSocialMedia.jsx'
 import SectionHealth from './components/SectionHealth.jsx'
 import SectionTourism from './components/SectionTourism.jsx'
 import SectionMap from './components/SectionMap.jsx'
+import SectionQuiz from './components/SectionQuiz.jsx'
 import Footer from './components/Footer.jsx'
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
       <SectionHealth />
       <SectionTourism />
       <SectionMap />
+      <SectionQuiz />
       <Footer />
     </div>
   )

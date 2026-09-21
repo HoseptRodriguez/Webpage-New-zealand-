@@ -7,9 +7,11 @@ export default function SectionUnemployment() {
     <section id="unemployment" className="relative bg-indigo text-parchment py-24 sm:py-32 overflow-hidden">
       <div className="absolute inset-0 opacity-20">
         <img
-          src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=2000&q=80"
+          src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=1400&q=45"
           alt="Crowd of young people at a public demonstration"
           className="w-full h-full object-cover"
+          loading="lazy"
+          decoding="async"
         />
       </div>
       <div className="absolute inset-0 bg-gradient-to-b from-indigo via-indigo/95 to-indigo" />

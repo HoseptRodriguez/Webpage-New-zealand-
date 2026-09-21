@@ -8,6 +8,7 @@ const LINKS = [
   { href: '#health', label: 'Health' },
   { href: '#tourism', label: 'Tourism' },
   { href: '#map', label: 'Map' },
+  { href: '#quiz', label: 'Quiz' },
 ]
 
 export default function Navbar() {

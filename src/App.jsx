@@ -5,6 +5,7 @@ import SectionUnemployment from './components/SectionUnemployment.jsx'
 import SectionSocialMedia from './components/SectionSocialMedia.jsx'
 import SectionHealth from './components/SectionHealth.jsx'
 import SectionTourism from './components/SectionTourism.jsx'
+import SectionMap from './components/SectionMap.jsx'
 import Footer from './components/Footer.jsx'
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
       <SectionSocialMedia />
       <SectionHealth />
       <SectionTourism />
+      <SectionMap />
       <Footer />
     </div>
   )

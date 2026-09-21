@@ -7,6 +7,7 @@ const LINKS = [
   { href: '#policy', label: 'Policy' },
   { href: '#health', label: 'Health' },
   { href: '#tourism', label: 'Tourism' },
+  { href: '#map', label: 'Map' },
 ]
 
 export default function Navbar() {
